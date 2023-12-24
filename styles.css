@@ -6,6 +6,7 @@
 
 html {
     background-color: #1f2937;
+    overflow-x: hidden;
 }
 
 .navbar-box {
@@ -92,6 +93,7 @@ main {
     color: #1f2937;
     padding-bottom: 5em;
     height: 60vh;
+    min-width: 50em;
 }
 
 .content-top-title {
@@ -125,6 +127,7 @@ main {
 .content-quote-box {
     background-color: #e5e7eb;
     height: 40vh;
+    min-width: 50em;
     display: flex;
     align-items:center;
     flex-direction: column;
@@ -151,7 +154,7 @@ main {
     max-width: 45em;
     min-width: 35em;
     text-align: right;
-    bottom: 3em;
+    bottom: 1em;
 }
 
 .content-signup-box {
@@ -163,6 +166,7 @@ main {
     padding: 3em;
     background-color: #3882f6;
     max-width: 60%;
+    min-width: 40em;
     border-radius: 8px;
     color:#f9faf8;
 }
